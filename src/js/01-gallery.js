@@ -4,8 +4,7 @@ import { galleryItems } from './gallery-items.js';
 
 console.log(galleryItems);
 
-const { SimpleLightbox } = require('simplelightbox/dist/simple-lightbox.js');
-
+import SimpleLightbox from 'simplelightbox';
 // Import suplimentar de stil
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
