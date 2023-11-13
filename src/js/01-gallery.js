@@ -1,14 +1,11 @@
-// Add imports above this line
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
 
 console.log(galleryItems);
-
 import SimpleLightbox from 'simplelightbox';
-// Import suplimentar de stil
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryList = document.querySelector('.gallery');
+galleryList.style.listStyle = 'none';
 function createGalleryItem(item) {
   const galleryItem = document.createElement('li');
   galleryItem.classList.add('gallery__item');
